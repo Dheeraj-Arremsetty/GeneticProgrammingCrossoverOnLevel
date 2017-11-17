@@ -1,0 +1,354 @@
+
+[ lil-gp Genetic Programming System.
+[ Portions copyright (c) 1995 Michigan State University.  All rights reserved.
+[ kernel version 1.0; 11 July 1995.
+
+
+initialization:
+    parameter database.
+    ephemeral random constants.
+    generation spaces.
+building function set(s):
+    set 0: and or not if a0 a1 a2 d0 d1 d2 d3 d4 d5 d6 d7
+    tree 0 uses function set 0.
+    function set complete.
+    seeding random number generator with 1.
+creating initial population(s):
+    106 trees were generated to fill the population of 100 (100 trees).
+    103 trees were generated to fill the population of 100 (100 trees).
+    112 trees were generated to fill the population of 100 (100 trees).
+    106 trees were generated to fill the population of 100 (100 trees).
+    109 trees were generated to fill the population of 100 (100 trees).
+    109 trees were generated to fill the population of 100 (100 trees).
+    106 trees were generated to fill the population of 100 (100 trees).
+    117 trees were generated to fill the population of 100 (100 trees).
+    110 trees were generated to fill the population of 100 (100 trees).
+    108 trees were generated to fill the population of 100 (100 trees).
+    initial population(s) complete.
+building subpopulation exchange topology:
+
+
+starting evolution.
+no checkpointing will be done.
+=== generation 0.
+    evaluation complete.  (2.54s wall, 2.54s user, 0.00s sys)
+    breeding complete.    (0.02s wall, 0.02s user, 0.00s sys)
+=== generation 1.
+    evaluation complete.  (1.82s wall, 1.82s user, 0.00s sys)
+    breeding complete.    (0.02s wall, 0.02s user, 0.00s sys)
+=== generation 2.
+    evaluation complete.  (1.92s wall, 1.92s user, 0.00s sys)
+    breeding complete.    (0.02s wall, 0.02s user, 0.00s sys)
+=== generation 3.
+    evaluation complete.  (2.38s wall, 2.38s user, 0.00s sys)
+    breeding complete.    (0.03s wall, 0.02s user, 0.00s sys)
+=== generation 4.
+    evaluation complete.  (2.75s wall, 2.76s user, 0.00s sys)
+    breeding complete.    (0.02s wall, 0.02s user, 0.00s sys)
+=== generation 5.
+    evaluation complete.  (2.55s wall, 2.55s user, 0.01s sys)
+    breeding complete.    (0.02s wall, 0.03s user, 0.00s sys)
+=== generation 6.
+    evaluation complete.  (2.66s wall, 2.66s user, 0.00s sys)
+    breeding complete.    (0.02s wall, 0.02s user, 0.01s sys)
+=== generation 7.
+    evaluation complete.  (2.70s wall, 2.70s user, 0.00s sys)
+    breeding complete.    (0.02s wall, 0.02s user, 0.00s sys)
+=== generation 8.
+    evaluation complete.  (2.13s wall, 2.13s user, 0.00s sys)
+    breeding complete.    (0.02s wall, 0.02s user, 0.00s sys)
+=== generation 9.
+    evaluation complete.  (1.88s wall, 1.88s user, 0.00s sys)
+    breeding complete.    (0.03s wall, 0.02s user, 0.00s sys)
+=== generation 10.
+    evaluation complete.  (1.94s wall, 1.95s user, 0.00s sys)
+    breeding complete.    (0.02s wall, 0.02s user, 0.00s sys)
+=== generation 11.
+    evaluation complete.  (1.92s wall, 1.92s user, 0.00s sys)
+    breeding complete.    (0.02s wall, 0.02s user, 0.00s sys)
+=== generation 12.
+    evaluation complete.  (1.91s wall, 1.92s user, 0.00s sys)
+    breeding complete.    (0.03s wall, 0.02s user, 0.00s sys)
+=== generation 13.
+    evaluation complete.  (2.03s wall, 2.03s user, 0.00s sys)
+    breeding complete.    (0.02s wall, 0.02s user, 0.00s sys)
+=== generation 14.
+    evaluation complete.  (2.07s wall, 2.06s user, 0.00s sys)
+    breeding complete.    (0.02s wall, 0.02s user, 0.01s sys)
+=== generation 15.
+    evaluation complete.  (2.12s wall, 2.12s user, 0.00s sys)
+    breeding complete.    (0.02s wall, 0.02s user, 0.00s sys)
+=== generation 16.
+    evaluation complete.  (2.09s wall, 2.09s user, 0.00s sys)
+    breeding complete.    (0.02s wall, 0.02s user, 0.00s sys)
+=== generation 17.
+    evaluation complete.  (2.20s wall, 2.20s user, 0.00s sys)
+    breeding complete.    (0.02s wall, 0.02s user, 0.00s sys)
+=== generation 18.
+    evaluation complete.  (2.22s wall, 2.22s user, 0.00s sys)
+    breeding complete.    (0.03s wall, 0.03s user, 0.00s sys)
+=== generation 19.
+    evaluation complete.  (2.26s wall, 2.25s user, 0.00s sys)
+    breeding complete.    (0.02s wall, 0.02s user, 0.00s sys)
+=== generation 20.
+    evaluation complete.  (2.31s wall, 2.31s user, 0.00s sys)
+    breeding complete.    (0.02s wall, 0.02s user, 0.00s sys)
+=== generation 21.
+    evaluation complete.  (2.46s wall, 2.45s user, 0.01s sys)
+    breeding complete.    (0.03s wall, 0.03s user, 0.00s sys)
+=== generation 22.
+    evaluation complete.  (2.56s wall, 2.56s user, 0.00s sys)
+    breeding complete.    (0.03s wall, 0.03s user, 0.00s sys)
+=== generation 23.
+    evaluation complete.  (2.55s wall, 2.55s user, 0.00s sys)
+    breeding complete.    (0.03s wall, 0.02s user, 0.00s sys)
+=== generation 24.
+    evaluation complete.  (2.57s wall, 2.58s user, 0.00s sys)
+    breeding complete.    (0.03s wall, 0.04s user, 0.00s sys)
+=== generation 25.
+    evaluation complete.  (2.72s wall, 2.72s user, 0.00s sys)
+    breeding complete.    (0.03s wall, 0.03s user, 0.00s sys)
+=== generation 26.
+    evaluation complete.  (2.65s wall, 2.66s user, 0.00s sys)
+    breeding complete.    (0.02s wall, 0.03s user, 0.00s sys)
+=== generation 27.
+    evaluation complete.  (2.63s wall, 2.62s user, 0.00s sys)
+    breeding complete.    (0.03s wall, 0.03s user, 0.00s sys)
+=== generation 28.
+    evaluation complete.  (2.54s wall, 2.54s user, 0.00s sys)
+    breeding complete.    (0.03s wall, 0.03s user, 0.01s sys)
+=== generation 29.
+    evaluation complete.  (2.82s wall, 2.82s user, 0.00s sys)
+    breeding complete.    (0.03s wall, 0.03s user, 0.00s sys)
+=== generation 30.
+    evaluation complete.  (2.62s wall, 2.62s user, 0.00s sys)
+    breeding complete.    (0.03s wall, 0.04s user, 0.00s sys)
+=== generation 31.
+    evaluation complete.  (2.61s wall, 2.61s user, 0.00s sys)
+    breeding complete.    (0.04s wall, 0.03s user, 0.00s sys)
+=== generation 32.
+    evaluation complete.  (2.60s wall, 2.60s user, 0.00s sys)
+    breeding complete.    (0.03s wall, 0.04s user, 0.00s sys)
+=== generation 33.
+    evaluation complete.  (2.50s wall, 2.49s user, 0.00s sys)
+    breeding complete.    (0.03s wall, 0.04s user, 0.00s sys)
+=== generation 34.
+    evaluation complete.  (2.73s wall, 2.73s user, 0.00s sys)
+    breeding complete.    (0.03s wall, 0.03s user, 0.00s sys)
+=== generation 35.
+    evaluation complete.  (2.71s wall, 2.71s user, 0.00s sys)
+    breeding complete.    (0.03s wall, 0.03s user, 0.00s sys)
+=== generation 36.
+    evaluation complete.  (2.65s wall, 2.65s user, 0.00s sys)
+    breeding complete.    (0.03s wall, 0.03s user, 0.00s sys)
+=== generation 37.
+    evaluation complete.  (2.58s wall, 2.58s user, 0.00s sys)
+    breeding complete.    (0.04s wall, 0.04s user, 0.00s sys)
+=== generation 38.
+    evaluation complete.  (2.69s wall, 2.69s user, 0.00s sys)
+    breeding complete.    (0.03s wall, 0.03s user, 0.00s sys)
+=== generation 39.
+    evaluation complete.  (2.67s wall, 2.67s user, 0.00s sys)
+    breeding complete.    (0.03s wall, 0.03s user, 0.01s sys)
+=== generation 40.
+    evaluation complete.  (2.70s wall, 2.70s user, 0.00s sys)
+    breeding complete.    (0.06s wall, 0.05s user, 0.00s sys)
+=== generation 41.
+    evaluation complete.  (2.98s wall, 2.98s user, 0.00s sys)
+    breeding complete.    (0.03s wall, 0.04s user, 0.00s sys)
+=== generation 42.
+    evaluation complete.  (2.83s wall, 2.82s user, 0.00s sys)
+    breeding complete.    (0.04s wall, 0.04s user, 0.00s sys)
+=== generation 43.
+    evaluation complete.  (2.83s wall, 2.83s user, 0.00s sys)
+    breeding complete.    (0.04s wall, 0.03s user, 0.00s sys)
+=== generation 44.
+    evaluation complete.  (2.91s wall, 2.91s user, 0.00s sys)
+    breeding complete.    (0.04s wall, 0.04s user, 0.00s sys)
+=== generation 45.
+    evaluation complete.  (2.79s wall, 2.79s user, 0.00s sys)
+    breeding complete.    (0.04s wall, 0.04s user, 0.00s sys)
+=== generation 46.
+    evaluation complete.  (2.73s wall, 2.73s user, 0.00s sys)
+    breeding complete.    (0.03s wall, 0.03s user, 0.00s sys)
+=== generation 47.
+    evaluation complete.  (2.84s wall, 2.84s user, 0.00s sys)
+    breeding complete.    (0.04s wall, 0.04s user, 0.00s sys)
+=== generation 48.
+    evaluation complete.  (2.85s wall, 2.85s user, 0.00s sys)
+    breeding complete.    (0.04s wall, 0.04s user, 0.00s sys)
+=== generation 49.
+    evaluation complete.  (2.88s wall, 2.88s user, 0.00s sys)
+    breeding complete.    (0.04s wall, 0.04s user, 0.00s sys)
+=== generation 50.
+    evaluation complete.  (2.89s wall, 2.89s user, 0.00s sys)
+    breeding complete.    (0.04s wall, 0.03s user, 0.00s sys)
+=== generation 51.
+    evaluation complete.  (3.00s wall, 3.00s user, 0.00s sys)
+    breeding complete.    (0.04s wall, 0.04s user, 0.00s sys)
+=== generation 52.
+    evaluation complete.  (2.91s wall, 2.91s user, 0.00s sys)
+    breeding complete.    (0.04s wall, 0.03s user, 0.00s sys)
+=== generation 53.
+    evaluation complete.  (2.99s wall, 3.00s user, 0.01s sys)
+    breeding complete.    (0.03s wall, 0.04s user, 0.00s sys)
+=== generation 54.
+    evaluation complete.  (3.00s wall, 2.99s user, 0.00s sys)
+    breeding complete.    (0.03s wall, 0.04s user, 0.00s sys)
+=== generation 55.
+    evaluation complete.  (2.99s wall, 2.99s user, 0.00s sys)
+    breeding complete.    (0.04s wall, 0.04s user, 0.00s sys)
+=== generation 56.
+    evaluation complete.  (3.25s wall, 3.25s user, 0.00s sys)
+    breeding complete.    (0.04s wall, 0.04s user, 0.00s sys)
+=== generation 57.
+    evaluation complete.  (3.18s wall, 3.19s user, 0.00s sys)
+    breeding complete.    (0.04s wall, 0.04s user, 0.00s sys)
+=== generation 58.
+    evaluation complete.  (3.17s wall, 3.16s user, 0.00s sys)
+    breeding complete.    (0.04s wall, 0.04s user, 0.00s sys)
+=== generation 59.
+    evaluation complete.  (3.27s wall, 3.28s user, 0.00s sys)
+    breeding complete.    (0.04s wall, 0.04s user, 0.00s sys)
+=== generation 60.
+    evaluation complete.  (3.24s wall, 3.24s user, 0.00s sys)
+    breeding complete.    (0.04s wall, 0.04s user, 0.00s sys)
+=== generation 61.
+    evaluation complete.  (3.26s wall, 3.26s user, 0.00s sys)
+    breeding complete.    (0.04s wall, 0.04s user, 0.01s sys)
+=== generation 62.
+    evaluation complete.  (3.23s wall, 3.24s user, 0.00s sys)
+    breeding complete.    (0.05s wall, 0.05s user, 0.00s sys)
+=== generation 63.
+    evaluation complete.  (3.40s wall, 3.40s user, 0.00s sys)
+    breeding complete.    (0.05s wall, 0.05s user, 0.00s sys)
+=== generation 64.
+    evaluation complete.  (3.25s wall, 3.25s user, 0.00s sys)
+    breeding complete.    (0.05s wall, 0.04s user, 0.00s sys)
+=== generation 65.
+    evaluation complete.  (3.31s wall, 3.31s user, 0.00s sys)
+    breeding complete.    (0.05s wall, 0.05s user, 0.00s sys)
+=== generation 66.
+    evaluation complete.  (3.34s wall, 3.34s user, 0.00s sys)
+    breeding complete.    (0.05s wall, 0.05s user, 0.00s sys)
+=== generation 67.
+    evaluation complete.  (3.45s wall, 3.45s user, 0.00s sys)
+    breeding complete.    (0.05s wall, 0.04s user, 0.00s sys)
+=== generation 68.
+    evaluation complete.  (3.42s wall, 3.42s user, 0.00s sys)
+    breeding complete.    (0.05s wall, 0.05s user, 0.00s sys)
+=== generation 69.
+    evaluation complete.  (3.49s wall, 3.49s user, 0.00s sys)
+    breeding complete.    (0.05s wall, 0.05s user, 0.00s sys)
+=== generation 70.
+    evaluation complete.  (3.50s wall, 3.49s user, 0.00s sys)
+    breeding complete.    (0.05s wall, 0.04s user, 0.00s sys)
+=== generation 71.
+    evaluation complete.  (3.44s wall, 3.44s user, 0.00s sys)
+    breeding complete.    (0.04s wall, 0.04s user, 0.00s sys)
+=== generation 72.
+    evaluation complete.  (3.40s wall, 3.41s user, 0.01s sys)
+    breeding complete.    (0.05s wall, 0.05s user, 0.00s sys)
+=== generation 73.
+    evaluation complete.  (3.39s wall, 3.39s user, 0.00s sys)
+    breeding complete.    (0.04s wall, 0.04s user, 0.00s sys)
+=== generation 74.
+    evaluation complete.  (3.41s wall, 3.41s user, 0.00s sys)
+    breeding complete.    (0.05s wall, 0.05s user, 0.00s sys)
+=== generation 75.
+    evaluation complete.  (3.33s wall, 3.32s user, 0.00s sys)
+    breeding complete.    (0.05s wall, 0.05s user, 0.00s sys)
+=== generation 76.
+    evaluation complete.  (3.31s wall, 3.31s user, 0.00s sys)
+    breeding complete.    (0.04s wall, 0.05s user, 0.00s sys)
+=== generation 77.
+    evaluation complete.  (3.26s wall, 3.26s user, 0.00s sys)
+    breeding complete.    (0.05s wall, 0.04s user, 0.00s sys)
+=== generation 78.
+    evaluation complete.  (3.43s wall, 3.44s user, 0.01s sys)
+    breeding complete.    (0.05s wall, 0.05s user, 0.00s sys)
+=== generation 79.
+    evaluation complete.  (3.41s wall, 3.41s user, 0.00s sys)
+    breeding complete.    (0.04s wall, 0.04s user, 0.00s sys)
+=== generation 80.
+    evaluation complete.  (3.40s wall, 3.40s user, 0.00s sys)
+    breeding complete.    (0.05s wall, 0.04s user, 0.00s sys)
+=== generation 81.
+    evaluation complete.  (3.56s wall, 3.57s user, 0.00s sys)
+    breeding complete.    (0.04s wall, 0.05s user, 0.00s sys)
+=== generation 82.
+    evaluation complete.  (3.37s wall, 3.36s user, 0.00s sys)
+    breeding complete.    (0.05s wall, 0.05s user, 0.00s sys)
+=== generation 83.
+    evaluation complete.  (3.46s wall, 3.47s user, 0.00s sys)
+    breeding complete.    (0.05s wall, 0.05s user, 0.00s sys)
+=== generation 84.
+    evaluation complete.  (3.43s wall, 3.43s user, 0.00s sys)
+    breeding complete.    (0.05s wall, 0.05s user, 0.00s sys)
+=== generation 85.
+    evaluation complete.  (3.36s wall, 3.36s user, 0.00s sys)
+    breeding complete.    (0.05s wall, 0.05s user, 0.00s sys)
+=== generation 86.
+    evaluation complete.  (3.37s wall, 3.37s user, 0.00s sys)
+    breeding complete.    (0.05s wall, 0.05s user, 0.00s sys)
+=== generation 87.
+    evaluation complete.  (3.42s wall, 3.42s user, 0.00s sys)
+    breeding complete.    (0.05s wall, 0.05s user, 0.00s sys)
+=== generation 88.
+    evaluation complete.  (3.46s wall, 3.46s user, 0.00s sys)
+    breeding complete.    (0.04s wall, 0.04s user, 0.00s sys)
+=== generation 89.
+    evaluation complete.  (3.61s wall, 3.60s user, 0.00s sys)
+    breeding complete.    (0.05s wall, 0.04s user, 0.00s sys)
+=== generation 90.
+    evaluation complete.  (3.53s wall, 3.54s user, 0.00s sys)
+    breeding complete.    (0.05s wall, 0.05s user, 0.00s sys)
+=== generation 91.
+    evaluation complete.  (3.46s wall, 3.46s user, 0.00s sys)
+    breeding complete.    (0.05s wall, 0.05s user, 0.00s sys)
+=== generation 92.
+    evaluation complete.  (3.51s wall, 3.52s user, 0.00s sys)
+    breeding complete.    (0.05s wall, 0.04s user, 0.00s sys)
+=== generation 93.
+    evaluation complete.  (3.49s wall, 3.49s user, 0.00s sys)
+    breeding complete.    (0.05s wall, 0.04s user, 0.00s sys)
+=== generation 94.
+    evaluation complete.  (3.57s wall, 3.57s user, 0.00s sys)
+    breeding complete.    (0.05s wall, 0.04s user, 0.00s sys)
+=== generation 95.
+    evaluation complete.  (3.42s wall, 3.42s user, 0.00s sys)
+    breeding complete.    (0.05s wall, 0.05s user, 0.00s sys)
+=== generation 96.
+    evaluation complete.  (3.43s wall, 3.44s user, 0.00s sys)
+    breeding complete.    (0.05s wall, 0.05s user, 0.00s sys)
+=== generation 97.
+    evaluation complete.  (3.43s wall, 3.44s user, 0.00s sys)
+    breeding complete.    (0.04s wall, 0.04s user, 0.00s sys)
+=== generation 98.
+    evaluation complete.  (3.48s wall, 3.47s user, 0.00s sys)
+    breeding complete.    (0.04s wall, 0.04s user, 0.00s sys)
+=== generation 99.
+    evaluation complete.  (3.35s wall, 3.35s user, 0.00s sys)
+    breeding complete.    (0.04s wall, 0.04s user, 0.00s sys)
+=== generation 100.
+    evaluation complete.  (3.49s wall, 3.49s user, 0.00s sys)
+
+SYSTEM STATISTICS
+
+------- memory -------
+           allocated:      -1726694879
+               freed:      -1726694879
+           not freed:      0
+       max allocated:      21309501
+    malloc'ed blocks:      329736
+   realloc'ed blocks:      25
+      free'ed blocks:      329736
+
+------- time -------
+             overall:      403.23s wall, 299.62s user, 0.12s sys
+          evaluation:      295.12s wall, 295.16s user, 0.05s sys
+            breeding:      3.71s wall, 3.64s user, 0.05s sys
+
+------- generation spaces -------
+      space   0 size:      1900
+      space   1 size:      200

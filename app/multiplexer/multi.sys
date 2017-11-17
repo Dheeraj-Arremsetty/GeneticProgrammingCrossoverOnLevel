@@ -1,0 +1,48 @@
+
+[ lil-gp Genetic Programming System.
+[ Portions copyright (c) 1995 Michigan State University.  All rights reserved.
+[ kernel version 1.0; 11 July 1995.
+
+
+initialization:
+    parameter database.
+    ephemeral random constants.
+    generation spaces.
+building function set(s):
+    set 0: and or not if a0 a1 a2 d0 d1 d2 d3 d4 d5 d6 d7
+    tree 0 uses function set 0.
+    function set complete.
+    seeding random number generator with 1.
+creating initial population(s):
+    106 trees were generated to fill the population of 100 (100 trees).
+    103 trees were generated to fill the population of 100 (100 trees).
+    112 trees were generated to fill the population of 100 (100 trees).
+    106 trees were generated to fill the population of 100 (100 trees).
+    109 trees were generated to fill the population of 100 (100 trees).
+    109 trees were generated to fill the population of 100 (100 trees).
+    106 trees were generated to fill the population of 100 (100 trees).
+    117 trees were generated to fill the population of 100 (100 trees).
+    110 trees were generated to fill the population of 100 (100 trees).
+    108 trees were generated to fill the population of 100 (100 trees).
+    initial population(s) complete.
+building subpopulation exchange topology:
+
+
+starting evolution.
+no checkpointing will be done.
+=== generation 0.
+    evaluation complete.  (2.40s wall, 2.40s user, 0.00s sys)
+    breeding complete.    (0.02s wall, 0.02s user, 0.00s sys)
+=== generation 1.
+    evaluation complete.  (1.71s wall, 1.71s user, 0.00s sys)
+    breeding complete.    (0.02s wall, 0.02s user, 0.00s sys)
+=== generation 2.
+    evaluation complete.  (1.94s wall, 1.93s user, 0.00s sys)
+    breeding complete.    (0.03s wall, 0.03s user, 0.00s sys)
+=== generation 3.
+    evaluation complete.  (2.61s wall, 2.60s user, 0.00s sys)
+    breeding complete.    (0.03s wall, 0.02s user, 0.01s sys)
+=== generation 4.
+    evaluation complete.  (2.77s wall, 2.77s user, 0.00s sys)
+    breeding complete.    (0.03s wall, 0.02s user, 0.00s sys)
+=== generation 5.

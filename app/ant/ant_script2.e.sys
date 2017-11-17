@@ -1,0 +1,54 @@
+
+[ lil-gp Genetic Programming System.
+[ Portions copyright (c) 1995 Michigan State University.  All rights reserved.
+[ kernel version 1.0; 11 July 1995.
+
+
+initialization:
+    parameter database.
+    ephemeral random constants.
+    generation spaces.
+building function set(s):
+    set 0: if-food-ahead progn2 progn3 move right left
+    tree 0 uses function set 0.
+    function set complete.
+    seeding random number generator with 1.
+creating initial population(s):
+    682 trees were generated to fill the population of 500 (500 trees).
+    666 trees were generated to fill the population of 500 (500 trees).
+    660 trees were generated to fill the population of 500 (500 trees).
+    655 trees were generated to fill the population of 500 (500 trees).
+    706 trees were generated to fill the population of 500 (500 trees).
+    645 trees were generated to fill the population of 500 (500 trees).
+    657 trees were generated to fill the population of 500 (500 trees).
+    668 trees were generated to fill the population of 500 (500 trees).
+    689 trees were generated to fill the population of 500 (500 trees).
+    658 trees were generated to fill the population of 500 (500 trees).
+    678 trees were generated to fill the population of 500 (500 trees).
+    669 trees were generated to fill the population of 500 (500 trees).
+    698 trees were generated to fill the population of 500 (500 trees).
+    656 trees were generated to fill the population of 500 (500 trees).
+    665 trees were generated to fill the population of 500 (500 trees).
+    661 trees were generated to fill the population of 500 (500 trees).
+    693 trees were generated to fill the population of 500 (500 trees).
+    666 trees were generated to fill the population of 500 (500 trees).
+    657 trees were generated to fill the population of 500 (500 trees).
+    685 trees were generated to fill the population of 500 (500 trees).
+    675 trees were generated to fill the population of 500 (500 trees).
+    704 trees were generated to fill the population of 500 (500 trees).
+    668 trees were generated to fill the population of 500 (500 trees).
+    647 trees were generated to fill the population of 500 (500 trees).
+    678 trees were generated to fill the population of 500 (500 trees).
+    672 trees were generated to fill the population of 500 (500 trees).
+    678 trees were generated to fill the population of 500 (500 trees).
+    649 trees were generated to fill the population of 500 (500 trees).
+    681 trees were generated to fill the population of 500 (500 trees).
+    667 trees were generated to fill the population of 500 (500 trees).
+    initial population(s) complete.
+building subpopulation exchange topology:
+
+
+starting evolution.
+no checkpointing will be done.
+=== generation 0.
+    evaluation complete.  (0.41s wall, 0.42s user, 0.00s sys)

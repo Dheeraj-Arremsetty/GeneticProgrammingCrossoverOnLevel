@@ -1,0 +1,35 @@
+###
+### sample input parameter file for boolean 11-multiplexer.
+###
+
+max_generations = 100
+pop_size = 100                      
+
+random_seed = 1
+output.basename = multi_script1.c
+
+# how to generate the initial population
+init.method = half_and_half
+init.depth = 2-8
+
+# limits on tree size.
+max_nodes = 500
+max_depth = 15
+multiple.subpops = 10
+multiple.exch_gen = 101
+
+## breeding parameters (emulates Koza Ch. 7)
+
+breed_phases = 4
+
+breed[1].operator = crossover, select=(tournament, size=7)
+breed[1].rate = 0.85
+
+breed[2].operator = reproduction, select=(tournament, size=7)
+breed[2].rate = 0.05
+        
+breed[3].operator = mutation, select=(tournament, size=7)
+breed[3].rate = 0.10
+      
+breed[4].operator = reproduction, select = best
+breed[4].rate = 0.0001

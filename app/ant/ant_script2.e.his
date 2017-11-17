@@ -1,0 +1,21 @@
+=== BEST-OF-RUN ===
+      current generation: 0
+              generation: 0
+           subpopulation: 8
+                   nodes: 17
+                   depth: 3
+                    hits: 45
+TOP INDIVIDUAL:
+
+
+
+-- #1 --
+                    hits: 45
+             raw fitness: 45.0000
+    standardized fitness: 44.0000
+        adjusted fitness: 0.5056
+TREE:
+ (if-food-ahead (if-food-ahead (if-food-ahead move move)
+                               (progn3 right left move))
+                (progn2 (progn3 right move move)
+                        (progn2 left move)))
